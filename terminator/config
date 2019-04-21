@@ -1,0 +1,40 @@
+[global_config]
+  always_split_with_profile = True
+  extra_styling = False
+  focus = mouse
+  scroll_tabbar = True
+  title_hide_sizetext = True
+  title_transmit_bg_color = "#d30102"
+[keybindings]
+  split_horiz = <Alt>h
+  split_vert = <Alt>v
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = Dracula
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    cursor_color = "#aaaaaa"
+  [[Dracula]]
+    background_color = "#1e1f29"
+    cursor_color = "#aaaaaa"
+    foreground_color = "#f8f8f2"
+    icon_bell = False
+    palette = "#44475a:#ff5555:#50fa7b:#f1fa8c:#8be9fd:#bd93f9:#ff79c6:#94a3a5:#000000:#ff5555:#50fa7b:#f1fa8c:#8be9fd:#bd93f9:#ff79c6:#ffffff"
+    scrollbar_position = hidden
+    show_titlebar = False
+  [[gruvbox-dark]]
+    background_color = "#282828"
+    cursor_color = "#7c6f64"
+    font = Font Awesome 5 Free 10
+    foreground_color = "#ebdbb2"
+    icon_bell = False
+    palette = "#181818:#cc241d:#98971a:#d79921:#458588:#b16286:#689d6a:#ebdbb2:#928374:#fb4934:#b8bb26:#fabd2f:#83a598:#d3869b:#8ec07c:#ebdbb2"
+    scrollbar_position = hidden
+    show_titlebar = False
